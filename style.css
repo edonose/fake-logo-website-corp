@@ -1,0 +1,54 @@
+html {
+  background: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  margin: auto;
+  width: 600px;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 30px;
+  border: 3px solid purple;
+}
+div {
+  background-color: purple;
+  text-align: center;
+  color: white;
+  padding: 20px 0px;
+  font-family: "Montserrat", sans-serif;
+}
+button {
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  margin-bottom: 10px;
+}
+a {
+  font-family: Georgia;
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+}
+.social {
+  height: 60px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px 3px;
+}
+.tr:hover {
+  color: yellow;
+  text-decoration: underline;
+
+  transition: color 1s;
+}
+hr {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.logo {
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
